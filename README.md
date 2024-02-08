@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Contact Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introducing our innovative contact application, meticulously crafted to streamline your communication needs with elegance and efficiency. Leveraging a blend of HTML, CSS, Bootstrap, Javascript, and React.js, our application offers a seamless user experience for managing your contacts. Whether you're organizing professional connections or staying in touch with friends and family, our intuitive interface empowers users to perform a myriad of operations with ease. From adding new contacts to editing details and even deleting entries, our solution embodies simplicity without compromising functionality. Welcome to a new era of contact management, where technology meets convenience at your fingertips.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Create Contact.
+2. Delete Contact.
+3. Update Contact.
+4. View Contact.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Steps to Setup
 
-### `npm test`
+1. Clone the repository
+2. Install dependencies **`npm start`**
+3. Run the server from the index.js file **`npm start`**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+- **`public`**:This is the default public file which contains index.html file.
+- **`src/`**
+  - **`components/`**
+    - **`AddContactForm.jsx:`** This is the form for adding new contacts.
+    - **`Button.jsx:`** This is the button component file.
+    - **`Error.jsx:`** This is the error component file.
+    - **`Loading.jsx:`** This is the loading component file.
+    - **`LoadingButton.jsx:`** This is the loading button component.
+    - **`Table.jsx:`** This is the table file in which the contact list displays.
+    - **`TableRow.jsx:`** This is the table row components.
+    - **`UpdateContactForm:`** This is form to update contact information.
+  - **`App.js:`** This file contains all the state and functions.
+  - **`index.js:`** This is the entry point of the project.
+- **`.gitignore:`** This file ensures that the listed file should not be commited on github.
+- **`package-lock.json:`** This file contains the meta data of the versions of the dependencies.
+- **`package.json:`** This file contains the meta information of the projects.
+- **`README.md:`** This file contains the complete information of the projects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Akash Verma
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact me
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-verma-09aug2000/) [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/Akash_Verma2000/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akash.verma217112@gmail.com)
+[![Naukari](https://img.shields.io/badge/Naukri.com-0A66C2?style=for-the-badge&logo=Naukri.com&logoColor=white)](https://www.naukri.com/mnjuser/profile)
